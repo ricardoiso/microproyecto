@@ -6,9 +6,30 @@ body{
     background-image: url("https://www.itl.cat/pngfile/big/102-1029187_fondos-pc-full-hd-fondos-de-pantalla-pc.png");
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% auto;
+    
+}
+.menu{
+    color: rgb(224, 237, 248);
+    font-family: 'Acme', sans-serif;
+    background-color: rgba(173, 173, 216, 0.226);
+    height: 100vh;
+    
+}
+
 .welcome{
     display: grid;
     justify-content: center;
     color: rgb(224, 237, 248);
-    
+    font-family: 'Acme', sans-serif;
+}
+
+.titulo{
+    font-size: 4em;
+}
+
+.infor{
+    font-size: 2em;
 }
