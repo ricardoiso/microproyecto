@@ -261,6 +261,10 @@ input, button{
 }
 
 .redes{
-    color: teal;
-    
+    color: rgb(16, 182, 182);
+    justify-content: center;
+}
+
+.redes ul{
+    font-size: 2em;
 }
