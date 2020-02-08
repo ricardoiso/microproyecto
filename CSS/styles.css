@@ -194,25 +194,41 @@ progress[role] {
 }
 
 .skill-1::-webkit-progress-value {
-    background: #ff9e2c;
+    background: #2fc848;
   }
   
   .skill-1::-moz-progress-bar {
-    background: #ff9e2c;
+    background: #2fc848;
   }
   
   .skill-2::-webkit-progress-value {
-    background: #4ecdc4;
+    background: #c88d2f;
   }
   
   .skill-2::-moz-progress-bar {
-    background: #4ecdc4;
+    background: #c88d2f;
   }
   
   .skill-3::-webkit-progress-value {
-    background: #ff6b6b;
+    background: #e22929;
   }
   
   .skill-3::-moz-progress-bar {
-    background: #ff6b6b;
+    background: #e22929;
   }
+
+  .skill-4::-webkit-progress-value {
+    background: #1db997;
+  }
+  
+  .skill-4::-moz-progress-bar {
+    background: #1db997;
+  }
+
+@-webkit-keyframes bar-fill {
+  0% { width: 0; }
+}
+
+@keyframes bar-fill {
+  0% { width: 0; }
+}
