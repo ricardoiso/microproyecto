@@ -1,22 +1,23 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url("https://images.alphacoders.com/786/786783.jpg");
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-rows: auto auto auto auto;
 }
 
-.grid-container2{
+.grid-container2 {
     display: grid;
     grid-template-columns: 20% auto;
-    
+
 }
-.menu{
+
+.menu {
     color: rgb(224, 237, 248);
     font-family: 'Acme', sans-serif;
     background-color: rgba(173, 173, 216, 0.404);
@@ -25,12 +26,12 @@ body{
     color: rgb(131, 221, 221);
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(108, 235, 190);
 }
 
-.welcome{
+.welcome {
     display: grid;
     justify-content: center;
     color: rgb(164, 212, 235);
@@ -38,23 +39,23 @@ a{
     margin: 5%;
 }
 
-.titulo{
+.titulo {
     font-size: 4em;
     height: 30%;
 }
 
-.infor{
+.infor {
     font-size: 2em;
 }
 
-.grid-portafolio{
+.grid-portafolio {
     display: grid;
     grid-template-columns: auto auto auto;
     color: white;
     justify-items: center;
 }
 
-#titPort{
+#titPort {
     grid-column: span 3;
     background-color: rgba(10, 155, 155, 0.356);
     font-size: 2em;
@@ -69,74 +70,149 @@ a{
     float: left;
     width: 180px;
     background-color: rgba(50, 146, 146, 0.308);
-  }
-  
+}
+
 .project:hover {
     border: 1px solid #777;
-  }
-  
+}
+
 .project img {
     width: 100%;
     height: auto;
-  }
-  
+}
+
 .desc {
     padding: 15px;
     text-align: center;
-  }
-
-
-  .grid-aboutme{
-      display: grid;
-      grid-template-columns: 50% 50%;
-      justify-content: center;
-      background-color: rgba(76, 87, 204, 0.486);
-  }
-
-  #titAboutme{
-      grid-column: span 2;
-      color: rgb(206, 251, 247);
-      background-color: rgba(10, 155, 155, 0.26);
-      font-size: 2em;
-      text-align: center;
-  }
-
-  .myinfo{
-      color: rgb(183, 218, 235);
-      justify-items: center;
-      padding: 2%;
-      padding-top: 0%;
-  }
-
-  .myinfo h1{
-      font-size: 2.8em;
-      padding-top: 0%;
-  }
-
-  .myinfo h3{
-      font-size: 1.5em;
-  }
-
-  #myimg{
-    text-align: center;
-  }
-  
-
-  .objetives{
-      font-size: 1.8em;
-      color: rgb(211, 228, 236);      
-  }
-
-  .objetives h1,h3{
-margin: 0%;  }
-
-.largo{
-    font-size: 1.8em;
-    margin-top: 10%;
-    color: rgb(205, 224, 233);
-
 }
 
 
+.grid-aboutme {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    background-color: rgba(76, 87, 204, 0.486);
+}
+
+#titAboutme {
+    grid-column: span 2;
+    color: rgb(206, 251, 247);
+    background-color: rgba(10, 155, 155, 0.26);
+    font-size: 2em;
+    text-align: center;
+}
+
+.myinfo {
+    color: rgb(183, 218, 235);
+    justify-items: center;
+    padding: 2%;
+    padding-top: 0%;
+}
+
+.myinfo h1 {
+    font-size: 2.8em;
+    padding-top: 0%;
+}
+
+.myinfo h3 {
+    font-size: 1.5em;
+}
+
+#myimg {
+    text-align: center;
+}
 
 
+.objetives {
+    font-size: 1.8em;
+    color: rgb(211, 228, 236);
+}
+
+.objetives h1,
+h3 {
+    margin: 0%;
+}
+
+.largo {
+    font-size: 1.8em;
+    margin-top: 10%;
+    color: rgb(205, 224, 233);
+}
+
+.grid-hab-dest {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titHab-dest {
+    color: rgb(206, 251, 247);
+    background-color: rgba(10, 155, 155, 0.26);
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+
+ul h3 {
+    font-size: 2em;
+}
+
+progress,
+progress[role] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-size: auto;
+    height: 100px;
+    width: 100%;
+}
+
+.skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+}
+
+.skill {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.skill > h3 {
+    color: #fff;
+    left: 1em;
+    line-height: 1;
+    position: absolute;
+    top: 1em;
+}
+
+.skill > ::-webkit-progress-value {
+    -webkit-animation: bar-fill 2s;
+    width: 0px;
+}
+
+.skill-1::-webkit-progress-value {
+    background: #ff9e2c;
+  }
+  
+  .skill-1::-moz-progress-bar {
+    background: #ff9e2c;
+  }
+  
+  .skill-2::-webkit-progress-value {
+    background: #4ecdc4;
+  }
+  
+  .skill-2::-moz-progress-bar {
+    background: #4ecdc4;
+  }
+  
+  .skill-3::-webkit-progress-value {
+    background: #ff6b6b;
+  }
+  
+  .skill-3::-moz-progress-bar {
+    background: #ff6b6b;
+  }
