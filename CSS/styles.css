@@ -233,3 +233,34 @@ progress[role] {
   0% { width: 0; }
 }
 
+#contact{
+    color: rgb(206, 251, 247);
+    background-color: rgba(10, 155, 155, 0.26);
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario{
+    font-family: sans-serif;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    color: rgb(95, 223, 210);
+    background-color: rgba(7, 92, 92, 0.287);
+}
+
+input, button{
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.redes{
+    color: teal;
+    
+}
