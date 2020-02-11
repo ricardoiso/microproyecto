@@ -1,14 +1,16 @@
 * {
     box-sizing: border-box;
+    font-family: 'Slabo 13px', serif;
 }
 
-body {
-    background-image: url("C:/Users/Xiomara Gonzalez/Documents/Unimet/Sistemas de Informacion/Microproyecto/Images/fondo_paisaje.jpg");
+body{
+    margin: 0vh;
 }
 
 .grid-container {
     display: grid;
     grid-template-rows: auto auto auto auto;
+    background-image: url("C:/Users/Xiomara Gonzalez/Documents/Unimet/Sistemas de Informacion/Microproyecto/Images/sky-fondo.jpg");
 }
 
 .grid-container2 {
@@ -19,11 +21,11 @@ body {
 
 .menu {
     color: rgb(224, 237, 248);
-    font-family: 'Acme', sans-serif;
     background-color: rgba(173, 173, 216, 0.404);
     height: 100vh;
     font-size: 1.5em;
     color: rgb(131, 221, 221);
+    padding-left: 3vh;
 }
 
 a {
@@ -91,13 +93,13 @@ a {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
-    background-color: rgba(76, 87, 204, 0.486);
+    background-color: rgba(86, 116, 197, 0.322);
 }
 
 #titAboutme {
     grid-column: span 2;
     color: rgb(206, 251, 247);
-    background-color: rgba(10, 155, 155, 0.26);
+    background-color: rgba(10, 155, 155, 0.171);
     font-size: 2em;
     text-align: center;
 }
@@ -147,7 +149,7 @@ h3 {
 
 #titHab-dest {
     color: rgb(206, 251, 247);
-    background-color: rgba(10, 155, 155, 0.26);
+    background-color: rgba(10, 155, 155, 0.185);
     font-size: 2em;
     text-align: center;
     width: 100%;
@@ -277,7 +279,6 @@ button {
 .mis_redes {
     font-size: 2.5em;
     margin: 1%;
-    
 }
 
 .item {
