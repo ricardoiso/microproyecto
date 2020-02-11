@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("https://images.alphacoders.com/786/786783.jpg");
+    background-image: url("C:/Users/Xiomara Gonzalez/Documents/Unimet/Sistemas de Informacion/Microproyecto/Images/fondo_paisaje.jpg");
 }
 
 .grid-container {
@@ -180,7 +180,7 @@ progress[role] {
     position: relative;
 }
 
-.skill > h3 {
+.skill>h3 {
     color: #fff;
     left: 1em;
     line-height: 1;
@@ -188,52 +188,56 @@ progress[role] {
     top: 1em;
 }
 
-.skill > ::-webkit-progress-value {
+.skill> ::-webkit-progress-value {
     -webkit-animation: bar-fill 2s;
     width: 0px;
 }
 
 .skill-1::-webkit-progress-value {
-    background: #2fc848;
-  }
-  
-  .skill-1::-moz-progress-bar {
-    background: #2fc848;
-  }
-  
-  .skill-2::-webkit-progress-value {
-    background: #c88d2f;
-  }
-  
-  .skill-2::-moz-progress-bar {
-    background: #c88d2f;
-  }
-  
-  .skill-3::-webkit-progress-value {
-    background: #e22929;
-  }
-  
-  .skill-3::-moz-progress-bar {
-    background: #e22929;
-  }
+    background-image: linear-gradient(rgb(119, 0, 255), rgb(149, 73, 236), rgb(24, 143, 223));
+}
 
-  .skill-4::-webkit-progress-value {
-    background: #1db997;
-  }
-  
-  .skill-4::-moz-progress-bar {
-    background: #1db997;
-  }
+.skill-1::-moz-progress-bar {
+    background-image: linear-gradient(rgb(119, 0, 255), rgb(149, 73, 236), rgb(24, 143, 223));
+}
+
+.skill-2::-webkit-progress-value {
+    background-image: linear-gradient(rgb(255, 72, 0), rgb(255, 157, 0), rgb(223, 191, 12));
+}
+
+.skill-2::-moz-progress-bar {
+    background-image: linear-gradient(rgb(255, 72, 0), rgb(255, 157, 0), rgb(223, 191, 12));
+}
+
+.skill-3::-webkit-progress-value {
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 60, 0), rgb(223, 89, 12));
+}
+
+.skill-3::-moz-progress-bar {
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 60, 0), rgb(223, 89, 12));
+}
+
+.skill-4::-webkit-progress-value {
+    background-image: linear-gradient(rgb(0, 255, 76), rgb(33, 224, 144), rgb(12, 223, 213));
+}
+
+.skill-4::-moz-progress-bar {
+    background-image: linear-gradient(rgb(0, 255, 76), rgb(33, 224, 144), rgb(12, 223, 213));
+}
 
 @-webkit-keyframes bar-fill {
-  0% { width: 0; }
+    0% {
+        width: 0;
+    }
 }
 
 @keyframes bar-fill {
-  0% { width: 0; }
+    0% {
+        width: 0;
+    }
 }
 
-#contact{
+#titContact {
     color: rgb(206, 251, 247);
     background-color: rgba(10, 155, 155, 0.26);
     font-size: 2em;
@@ -241,7 +245,7 @@ progress[role] {
     width: 100%;
 }
 
-.formulario{
+.formulario {
     font-family: sans-serif;
     font-size: 2em;
     display: flex;
@@ -254,13 +258,28 @@ progress[role] {
     background-color: rgba(7, 92, 92, 0.287);
 }
 
-input, button{
+input,
+button {
     width: 20%;
     height: 40px;
     font-size: 20px;
 }
 
-.redes{
-    color: teal;
+.redes {
+    color: rgb(18, 189, 189);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(27, 180, 121, 0.198);
+}
+
+.mis_redes {
+    font-size: 2.5em;
+    margin: 1%;
     
+}
+
+.item {
+    font-size: 2em;
 }
