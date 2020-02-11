@@ -10,7 +10,7 @@ body{
 .grid-container {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    background-image: url("C:/Users/Xiomara Gonzalez/Documents/Unimet/Sistemas de Informacion/Microproyecto/Images/sky-fondo.jpg");
+    
 }
 
 .grid-container2 {
